@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+@import "reset.css";
+@import "variables.css";
+/*components*/
+@import "components/status-bar.css";
+/*screens*/
+@import "screens/login.css";
+
+body {
+  font-family: "Montserrat", sans-serif;
+  height: 200vh;
+  color: var(--navy);
+}
+.main-screen {
+  padding: 0px 25px;
+}
